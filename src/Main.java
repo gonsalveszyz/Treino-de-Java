@@ -5,5 +5,10 @@ public class Main {
                 int calculo = (int) (preco * quantidade);
                 String mensagem = "O valor total da compra foi de R$: ";
         System.out.println(mensagem+calculo);
+        double valorEmReais = 89.99;
+                double valorDoDolar = 5.01;
+                String mensagemDoValorEmDolar = "O produto em Dolar vai custar $: ";
+                double resultadoDoValorEmDolar =valorEmReais / valorDoDolar;
+        System.out.println(mensagemDoValorEmDolar + resultadoDoValorEmDolar);
     }
 }
